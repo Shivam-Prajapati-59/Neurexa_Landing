@@ -43,7 +43,7 @@ const companies = [
 
 export default function NameCarousel() {
   return (
-    <div className="overflow-hidden whitespace-nowrap bg-[#b6024d] py-8">
+    <div className="overflow-hidden whitespace-nowrap bg-[#b6024d] ">
       <div className="flex animate-marquee items-center">
         {companies.concat(companies).map((company, idx) => (
           <div key={idx} className="mx-12 flex-shrink-0">

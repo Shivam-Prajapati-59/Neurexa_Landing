@@ -1,3 +1,4 @@
+import FeatureSection from "@/components/FeatureSection";
 import HeroSection from "@/components/HeroSection";
 import NameCarousel from "@/components/NameCarousel";
 import Navbar from "@/components/Navbar";
@@ -5,10 +6,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen min-w-full">
+    <div className="min-h-screen min-w-screen overflow-x-hidden ">
       <Navbar />
       <HeroSection />
       <NameCarousel />
+      <FeatureSection />
 
       {/* <h1 className=" text-gray-900 text-8xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
