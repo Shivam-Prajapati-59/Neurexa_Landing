@@ -3,7 +3,7 @@ import FeatureSection from "@/components/FeatureSection";
 import HeroSection from "@/components/HeroSection";
 import NameCarousel from "@/components/NameCarousel";
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
+import ServicesSection from "@/components/ServicesSection";
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <NameCarousel />
       <FeatureSection />
+      <ServicesSection />
 
       {/* <h1 className=" text-gray-900 text-8xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
