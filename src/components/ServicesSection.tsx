@@ -1,8 +1,9 @@
 import { ArrowRight } from "lucide-react";
+import ServicesCard from "./ServicesCard";
 
 export default function HeroSection() {
   return (
-    <div className="bg-white min-h-screen flex flex-col justify-center px-4 sm:px-6 lg:px-8 xl:px-20">
+    <div className="bg-white min-h-screen flex flex-col justify-center px-4 sm:px-6 lg:px-8 xl:px-20 pt-10">
       <div className="max-w-8xl mx-auto w-full">
         {/* Tagline */}
         <div className="text-center mb-2 sm:mb-4">
@@ -42,6 +43,8 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+      <ServicesCard />
+      {/* Services Card Section */}
     </div>
   );
 }
