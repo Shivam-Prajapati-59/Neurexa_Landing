@@ -3,6 +3,7 @@ import FeatureSection from "@/components/FeatureSection";
 import HeroSection from "@/components/HeroSection";
 import NameCarousel from "@/components/NameCarousel";
 import Navbar from "@/components/Navbar";
+import ProjectSection from "@/components/ProjectSection";
 import ServicesSection from "@/components/ServicesSection";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <NameCarousel />
       <FeatureSection />
       <ServicesSection />
+      <ProjectSection />
 
       {/* <h1 className=" text-gray-900 text-8xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
