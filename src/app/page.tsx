@@ -5,6 +5,7 @@ import NameCarousel from "@/components/NameCarousel";
 import Navbar from "@/components/Navbar";
 import ProjectSection from "@/components/ProjectSection";
 import ServicesSection from "@/components/ServicesSection";
+import TaglinePage from "@/components/TaglinePage";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <FeatureSection />
       <ServicesSection />
       <ProjectSection />
+      <TaglinePage />
 
       {/* <h1 className=" text-gray-900 text-8xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
