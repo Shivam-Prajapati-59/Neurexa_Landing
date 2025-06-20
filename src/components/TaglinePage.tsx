@@ -19,7 +19,7 @@ const TaglinePage = () => {
           alt="coin"
           width={160}
           height={140}
-          className="inline-block pt-4 w-[80px] sm:w-[110px] md:w-[140px] lg:w-[160px]"
+          className="inline-block pt-6 w-[80px] sm:w-[110px] md:w-[140px] lg:w-[160px] "
         />
         <span>BOLD</span>
       </motion.div>

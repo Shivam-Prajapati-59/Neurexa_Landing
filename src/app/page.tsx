@@ -1,4 +1,5 @@
 "use client";
+import CreatorsPage from "@/components/CreatorsPage";
 import FeatureSection from "@/components/FeatureSection";
 import HeroSection from "@/components/HeroSection";
 import NameCarousel from "@/components/NameCarousel";
@@ -17,6 +18,7 @@ export default function Home() {
       <ServicesSection />
       <ProjectSection />
       <TaglinePage />
+      <CreatorsPage />
 
       {/* <h1 className=" text-gray-900 text-8xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
