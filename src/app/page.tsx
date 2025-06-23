@@ -1,6 +1,7 @@
 "use client";
 import CreatorsPage from "@/components/CreatorsPage";
 import FeatureSection from "@/components/FeatureSection";
+import FeedbackSection from "@/components/FeedbackSection";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import NameCarousel from "@/components/NameCarousel";
@@ -20,6 +21,7 @@ export default function Home() {
       <ProjectSection />
       <TaglinePage />
       <CreatorsPage />
+      <FeedbackSection />
       <Footer />
 
       {/* <h1 className=" text-gray-900 text-8xl">
