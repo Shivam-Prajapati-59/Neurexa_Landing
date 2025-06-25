@@ -69,10 +69,25 @@ const HeroSection = () => {
       <div className="flex flex-wrap sm:flex-nowrap items-center justify-between mt-4 md:mt-6 gap-2 sm:gap-4 lg:gap-8">
         <motion.div
           className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[170px] md:h-[170px] lg:w-[200px] lg:h-[200px]"
-          initial={{ y: 30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.4, duration: 0.6 }}
-          whileHover={{ scale: 1.1, rotate: 5 }}
+          initial={{ y: 30, opacity: 0, rotate: 0 }}
+          animate={{
+            y: 0,
+            opacity: 1,
+            rotate: 360,
+          }}
+          transition={{
+            delay: 0.6,
+            duration: 1.5,
+            rotate: {
+              type: "spring",
+              stiffness: 50,
+            },
+          }}
+          whileHover={{
+            scale: 1.1,
+            rotate: 370,
+            transition: { duration: 0.3 },
+          }}
         >
           <img
             src="/SolanaImg.png"
